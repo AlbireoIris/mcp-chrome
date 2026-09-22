@@ -1181,7 +1181,7 @@ function focusNode(id: string) {
 }
 /* removed legacy error-panel styles */
 
-/* dialog styles (aligned with popup ScheduleDialog) */
+/* dialog styles */
 .rr-modal {
   position: fixed;
   inset: 0;

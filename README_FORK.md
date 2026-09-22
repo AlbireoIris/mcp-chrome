@@ -14,6 +14,10 @@ Fork of [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) (MIT).
    - `app/native-server/src/mcp/mcp-server.ts` (`createMcpServer`)
    - `app/native-server/src/server/index.ts`
 3. **License audit** — `docs/LICENSE_AUDIT.md`
+4. **Dead UI removal** — drop unused popup pages/components
+   (`LocalModelPage`, model cache, element-marker manager, dialogs, icons).
+   Workflow builder under `popup/components/builder` stays (used by
+   `entrypoints/builder`).
 
 ## Upstream
 
